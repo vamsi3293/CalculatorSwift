@@ -48,7 +48,7 @@ class Calculator: UIViewController {
         if userIsInTheMiddleOfTyping {
             let textCurrentlyInDisplay = display.text!
             display.text = textCurrentlyInDisplay + digit
-
+            print(digit)
             
         }else{
         

@@ -20,6 +20,7 @@ class Calculator: UIViewController {
         set{
         
         display.text = String(newValue)
+            // anything can commit
         }
     
     }

@@ -54,6 +54,7 @@ class Calculator: UIViewController {
         
         display.text = digit
             userIsInTheMiddleOfTyping = true
+            print(display.text!)
         
         }
     }
